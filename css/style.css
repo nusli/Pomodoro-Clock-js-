@@ -1,0 +1,102 @@
+body {
+  background-color: #777;
+}
+.app {
+  padding:0;
+  margin: 0;
+  max-width: 100%;
+  text-align: center;
+}
+h1 {
+  font-family: Pacifico, cursive, sans-serif;
+  font-size: 5em;
+  padding: 0;
+  margin: 0;
+  color: #000;
+}
+.time {
+  font-size: 1.3em;
+}
+h3 {
+  font-size: 1.8em;
+  font-style: italic;
+}
+.btn {
+  background-color: #fff;
+  color: #000;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  border: 2px solid #fff;
+  margin: 4px;
+  cursor: pointer;
+  font-size: 1em;
+}
+#reset {
+  border: 2px solid #fff;
+  background-color: #fff;
+  cursor: pointer;
+  border-radius: 3px;
+  width: 100px;
+  height: 40px;
+  font-size: 1.2em;
+  box-shadow: 2px 2px 3px #333, -1px -1px 3px #333;
+}
+#reset:hover, button:hover {
+  box-shadow: 5px 5px 6px #333, -2px -2px 6px #333;
+}
+
+text {
+  font-size: 1.5em;
+}
+/* clock-styling */
+#clock {
+  min-width: 200px;
+  width: 15vw;
+  margin: 0 auto;
+  position: relative;
+}
+#clocktime {
+  text-anchor: middle;
+}
+svg {
+  z-index: -1;
+}
+#circle1 {
+  fill: none;
+  stroke-width: 2;
+  stroke: orange;
+  transition: stroke 2s;
+  -webkit-transition: stroke 2s;
+}
+stop {
+  transition: stop-color 2s;
+  -webkit-transition: stop-color 2s;
+}
+#stop1 {
+  stop-color: rgb(255,0,0);
+}
+#stop2{
+  stop-color: rgb(255,255,0);
+}
+
+/*  box-styling */
+.box-wrapper {
+  margin: auto;
+  width: auto;
+}
+.box {
+  box-sizing: border-box;
+  width: 20%;
+  display: inline-block;
+}
+@media only screen and (orientation:portrait){
+  .box{
+    display: block;
+    width: 50%;
+    margin: auto
+  }
+  h1 {
+    font-size: 4em;
+  }
+}
