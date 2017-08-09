@@ -9,4 +9,5 @@ Just download the repository and open the *index.html* file. This will automatic
 
 To change them permanently go into *index.js* file and change the **sTime** and **bTime** variables. 
 
-[Project on Codepen](https://codepen.io/nusli/full/awPVWq/)
+[Project on Codepen](https://codepen.io/nusli/full/awPVWq/)<br/>
+Sound file from [Notificationsounds.com](https://notificationsounds.com/)
